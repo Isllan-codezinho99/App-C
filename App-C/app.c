@@ -1,39 +1,37 @@
 #include <stdio.h>
 
 int main() {
-	/*Informacoes de Isllan*/
-	char* nome = "Isllan"; // Nome isllan
-	int idade = 12; // Idade isllan
-	char inicial = 'I'; // inicial isllan
-	float dinheiro = 5.0; // dinheiro isllan
+	/*Information of the Isllan*/
 
-	/*informacoes do Surphie*/
-	char* nome_2 = "Surphie";
-	int idade_2 = 0;
-	char inicial_2 = 'S';
-	float dinheiro_2 = 0.0;
+	// idade do Isllan
+	int idade = 18;
 
-	printf("%s", nome);
-	printf(" : Como que aciona o servidor?\n");
-	printf("%s", nome_2);
-	printf(" : Apenas acione: /server <comando> <argumento>\n");
-	printf("%s", nome);
-	printf(" : /server users getNames\n");
-	printf("Server: %s", nome_2);
-	printf(" and %s", nome);
-	printf("%s", nome);
-	printf(": Uau, incrivel\n");
-	printf("%s", nome_2);
-	printf(": /server users getInformationsFull\n");
-	printf("Server: %s\n", nome);
-	printf("idade: %d\n", idade);
+	// Nome do Isllan
+	char* nome = "Isllan";
+
+	// Inicial do Isllan
+	char inicial = 'I';
+
+	/*Information of the Surphie*/
+
+	// idade de surphie
+	int idade_s = 18;
+
+	// Nome de surphie
+	char* nome_s = "Surphie";
+
+	// Inicial de Surphie
+	char inicial_s = 'S';
+
+	/*Conversa*/
+	
+	printf("%s: Ola, com quem eu falo?\n", nome);
+	printf("%s: Voce fala com %s\n", nome_s, nome_s);
+	printf("%s: Entendo, qual eh o comando que exibe informacoes?\n", nome);
+	printf("%s: O comando que usa informacoes eh: /server users GetInformation<Nome de usuario> /all <ou uma coisa especifica>\n", nome_s);
+	printf("%s: /server users GetInformationIsllan /all\n", nome);
+	printf("Server: information of the Isllan: \n");
+	printf("Nome: %s\n", nome);
+	printf("Idade: %d\n", idade);
 	printf("inicial: %c\n", inicial);
-	printf("dinheiro: %.2f\n", dinheiro);
-	printf("Server: %s\n", nome_2);
-	printf("Idade: %d\n", idade_2);
-	printf("Inicial: %c\n", inicial_2);
-	printf("dinheiro_2: %.2f\n", dinheiro);
-
-	return 0;
-	/* Fim */
 }

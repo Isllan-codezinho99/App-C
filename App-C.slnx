@@ -6,5 +6,5 @@
   <Folder Name="/Itens de Solução/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="App-C/App-C.vcxproj" />
+  <Project Path="App-C/App-C.vcxproj" Id="782383a8-5424-4713-98ec-f310e85969de" />
 </Solution>
